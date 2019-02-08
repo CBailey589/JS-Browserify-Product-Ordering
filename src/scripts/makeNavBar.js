@@ -1,3 +1,4 @@
+// WAS NAV.JS
 function makeNavBar() {
     document.querySelector("#navBar").innerHTML =`
     <h1 id="navHeader">BEETSY</h1>

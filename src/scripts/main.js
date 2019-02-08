@@ -1,4 +1,5 @@
-import makeNavBar from "./nav"
-// import Y from "./productList"
+import makeNavBar from "./makeNavBar"
+import makeProductReviewList from "./makeProductReviewList"
 
 makeNavBar()
+makeProductReviewList()
