@@ -1,3 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#productSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
 .productObj{
     border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    max-height: 500px;
+    overflow-y: scroll
+}
+
+.productImg {
+    height: 120px; 
+    width: 120px
+}
+
+.hidden {
+    height: 0px;
 }
