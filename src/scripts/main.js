@@ -1,2 +1,4 @@
-import x from "./nav"
-import Y from "./productList"
+import makeNavBar from "./nav"
+// import Y from "./productList"
+
+makeNavBar()
