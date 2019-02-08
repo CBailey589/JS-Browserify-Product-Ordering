@@ -1,0 +1,155 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "prodName": "1 Bee",
+            "prodDesc": "Pinterest cray lo-fi 90's XOXO etsy activated charcoal, street art pabst kogi kitsch chicharrones pitchfork.",
+            "prodPrice": "$0.01",
+            "prodImg": "bumbleBee.png"
+        },
+        {
+            "id": 2,
+            "prodName": "10 Bees",
+            "prodDesc": "Unicorn 3 wolf moon YOLO fixie, green juice salvia microdosing af snackwave gluten-free XOXO humblebrag tbh blue bottle.",
+            "prodPrice": "$0.10",
+            "prodImg": "bumbleBee.png"
+        },
+        {
+            "id": 3,
+            "prodName": "100 Bees",
+            "prodDesc": "Man braid live-edge snackwave, cronut keytar PBR&B activated charcoal yr mixtape.",
+            "prodPrice": "$1.00",
+            "prodImg": "bumbleBee.png"
+        },
+        {
+            "id": 4,
+            "prodName": "1,000 Bee",
+            "prodDesc": "Kogi single-origin coffee 3 wolf moon tousled, salvia readymade humblebrag.",
+            "prodPrice": "$10.00",
+            "prodImg": "bumbleBee.png"
+        },
+        {
+            "id": 5,
+            "prodName": "10,000 Bee",
+            "prodDesc": "Ennui keffiyeh roof party, gentrify portland four dollar toast single-origin coffee keytar chartreuse cloud bread woke kombucha affogato.",
+            "prodPrice": "$100.00",
+            "prodImg": "bumbleBee.png"
+        },
+        {
+            "id": 6,
+            "prodName": "100,000 Bee",
+            "prodDesc": "Twee man bun artisan freegan green juice cred.",
+            "prodPrice": "1,000",
+            "prodImg": "bumbleBee.png"
+        },
+        {
+            "id": 7,
+            "prodName": "1,000,000 Bee",
+            "prodDesc": "Squid sriracha organic, chicharrones mixtape photo booth asymmetrical 8-bit chillwave tbh.",
+            "prodPrice": "10,000",
+            "prodImg": "bumbleBee.png"
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "prodId":"2",
+            "reviewText":"Selvage wayfarers pug pok pok. Butcher tumeric 8-bit pork belly truffaut microdosing chillwave chartreuse blog scenester trust fund narwhal try-hard. Gluten-free palo santo four dollar toast, pinterest try-hard everyday carry semiotics helvetica."
+        },
+        {
+            "id": 2,
+            "prodId":"4",
+            "reviewText":"Lo-fi four dollar toast four loko pickled gentrify bespoke subway tile ethical la croix 3 wolf moon heirloom pop-up williamsburg cardigan. Hell of poutine raclette shabby chic taxidermy prism."
+        },
+        {
+            "id": 3,
+            "prodId":"5",
+            "reviewText":"Iceland XOXO."
+        },
+        {
+            "id": 4,
+            "prodId":"6",
+            "reviewText":"Tbh air plant leggings, glossier etsy activated charcoal mumblecore skateboard helvetica. Gentrify shabby chic cred fixie, freegan austin raclette hashtag."
+        },
+        {
+            "id": 5,
+            "prodId":"3",
+            "reviewText":"PBR&B dreamcatcher prism, pok pok pitchfork waistcoat try-hard chillwave freegan DIY vape wolf occupy banh mi scenester."
+        },
+        {
+            "id": 6,
+            "prodId":"1",
+            "reviewText":"Migas schlitz drinking vinegar umami pop-up taxidermy franzen cronut. 90's skateboard XOXO kickstarter man bun austin."
+        },
+        {
+            "id": 7,
+            "prodId":"2",
+            "reviewText":"Salvia four loko hell of photo booth hashtag. Raw denim portland intelligentsia typewriter helvetica forage."
+        },
+        {
+            "id": 8,
+            "prodId":"5",
+            "reviewText":"Normcore celiac hoodie unicorn cloud bread swag. Meggings echo park scenester hammock."
+        },
+        {
+            "id": 9,
+            "prodId":"7",
+            "reviewText":"Cray hella DIY, copper mug next level aesthetic marfa pork belly pabst disrupt YOLO unicorn selfies franzen. Gastropub swag vape authentic ugh YOLO literally etsy."
+        },
+        {
+            "id": 10,
+            "prodId":"1",
+            "reviewText":"Affogato umami single-origin coffee dreamcatcher shoreditch iPhone. Cliche twee pitchfork tacos gentrify."
+        },
+        {
+            "id": 11,
+            "prodId":"7",
+            "reviewText":"Echo park palo santo next level lomo austin tumeric la croix sriracha meggings cliche. Art party hashtag jianbing normcore lyft. Gentrify scenester meditation, disrupt deep v retro freegan offal tilde heirloom."
+        },
+        {
+            "id": 12,
+            "prodId":"6",
+            "reviewText":"Quinoa everyday carry 3 wolf moon dreamcatcher snackwave fanny pack, cred salvia organic iPhone keffiyeh cronut trust fund tattooed sartorial."
+        },
+        {
+            "id": 13,
+            "prodId":"1",
+            "reviewText":"Lorem ipsum dolor amet roof party synth VHS four loko yuccie. Food truck master cleanse humblebrag banjo, truffaut snackwave squid polaroid fashion axe pinterest thundercats tbh brunch offal."
+        },
+        {
+            "id": 14,
+            "prodId":"3",
+            "reviewText":"Try-hard blue bottle ramps tumblr. Man bun gastropub vape semiotics hell of lyft hella polaroid post-ironic four dollar toast pabst."
+        },
+        {
+            "id": 15,
+            "prodId":"4",
+            "reviewText":"Vexillologist roof party whatever shoreditch live-edge green juice 3 wolf moon farm-to-table wolf fanny pack bitters adaptogen bespoke."
+        },
+        {
+            "id": 16,
+            "prodId":"5",
+            "reviewText":"Artisan twee jean shorts church-key pickled, +1 glossier copper mug raw denim edison bulb yr XOXO keffiyeh."
+        },
+        {
+            "id": 17,
+            "prodId":"3",
+            "reviewText":"Actually meh yuccie bespoke typewriter squid. DIY kombucha retro XOXO, live-edge chicharrones raclette chia. Palo santo tacos gluten-free chicharrones mumblecore flexitarian cray, wolf cardigan vinyl."
+        },
+        {
+            "id": 18,
+            "prodId":"5",
+            "reviewText":"Lorem ipsum dolor amet shabby chic vinyl seitan, scenester chia everyday carry iceland migas squid irony 90's helvetica. Dreamcatcher deep v scenester twee live-edge enamel pin swag."
+        },
+        {
+            "id": 19,
+            "prodId":"5",
+            "reviewText":"Crucifix fanny pack next level pabst, tofu chambray quinoa beard health goth."
+        },
+        {
+            "id": 20,
+            "prodId":"5",
+            "reviewText":"Ennui DIY raw denim gastropub cardigan typewriter, microdosing PBR&B etsy single-origin coffee scenester kogi 8-bit."
+        }
+    ]
+}
