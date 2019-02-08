@@ -135,6 +135,21 @@
             "id": 17,
             "prodId":"3",
             "reviewText":"Actually meh yuccie bespoke typewriter squid. DIY kombucha retro XOXO, live-edge chicharrones raclette chia. Palo santo tacos gluten-free chicharrones mumblecore flexitarian cray, wolf cardigan vinyl."
+        },
+        {
+            "id": 18,
+            "prodId":"5",
+            "reviewText":"Lorem ipsum dolor amet shabby chic vinyl seitan, scenester chia everyday carry iceland migas squid irony 90's helvetica. Dreamcatcher deep v scenester twee live-edge enamel pin swag."
+        },
+        {
+            "id": 19,
+            "prodId":"5",
+            "reviewText":"Crucifix fanny pack next level pabst, tofu chambray quinoa beard health goth."
+        },
+        {
+            "id": 20,
+            "prodId":"5",
+            "reviewText":"Ennui DIY raw denim gastropub cardigan typewriter, microdosing PBR&B etsy single-origin coffee scenester kogi 8-bit."
         }
     ]
 }

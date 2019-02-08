@@ -4,14 +4,36 @@ import getReviewDataJSON from "./getReviewDataJSON"
 function makeProductReviewList() {
     return getReviewDataJSON()
         .then((parsedReviews) => {
-            let newestReviews = parsedReviews.sort(function (a, b) {
+            let newestReviewsByProduct = parsedReviews.sort(function (a, b) {
                 return b.id - a.id
             }).sort(function
-            (a, b) {
+                (a, b) {
                 return b.prodId - a.prodId
             })
-            console.log(newestReviews)
-            return newestReviews
+            console.log({newestReviewsByProduct})
+            let i = 1;
+            let threeNewestReviewsByProd = []
+            let reviewsForGivenProduct = {};
+
+            newestReviewsByProduct.forEach((review, index) => {
+
+                if (index > 0) {
+                    if (review.prodId !== newestReviewsByProduct[index - 1].prodId) {
+                        threeNewestReviewsByProd.push(reviewsForGivenProduct)
+                        i = 0
+                        reviewsForGivenProduct = {}
+                    }
+                    if(i < 3){
+                        i++
+                        reviewsForGivenProduct[`${i}`] = review
+                    }
+                } else {
+                    reviewsForGivenProduct[`${i}`] = review
+                }
+            });
+            threeNewestReviewsByProd.push(reviewsForGivenProduct)
+            console.log({threeNewestReviewsByProd})
+            return threeNewestReviewsByProd
         })
 }
 
