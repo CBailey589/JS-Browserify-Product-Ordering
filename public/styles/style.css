@@ -1,4 +1,33 @@
+*{
+    margin: 0px;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFE66E;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    box-shadow: 0px 0px 50px 5px #885E00 inset;
+}
+
+#navBar h1 {
+    font-size: 4.5em;
+    color: #886600;
+}
+
+#navBar h3 {
+    font-size: 3em;
+    color: #885E00;
+}
+
+#navLinks {
     display: flex;
     flex-direction: column;
 }
@@ -7,23 +36,51 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    background-image: url("../images/honeycomb.png");
 }
 
 .productObj{
-    border: 2px solid yellow;
+    border: 10px solid #FFDA25;
+    background-color: #886600;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     width: 45%;
     max-height: 500px;
-    overflow-y: scroll
+    overflow-y: scroll;
+    margin: 10px 0px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.productObj h3 {
+    font-size: 2em;
+    color: yellow
+}
+
+.productObj h4 {
+    color: yellow
 }
 
 .productImg {
-    height: 120px; 
-    width: 120px
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.productObj button {
+    background-color: black;
+    color: yellow;
+    font-size: 1.2em;
+    min-height: 50px;
+}
+
+.productObj fieldset {
+    display: flex;
+    flex-direction: column;
 }
 
 .hidden {
     height: 0px;
+    overflow: hidden;
 }

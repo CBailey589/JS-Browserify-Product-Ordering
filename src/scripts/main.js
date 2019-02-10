@@ -4,3 +4,5 @@ import productListToDom from "./productListToDom"
 
 makeNavBar()
 productListToDom()
+
+document.queryselector("#productSection").addEventListener("click", showNewReviewArea)
