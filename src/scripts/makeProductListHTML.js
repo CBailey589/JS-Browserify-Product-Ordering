@@ -41,11 +41,11 @@ function makeProductListHTML() {
                 </div>
                 <button id="startNewReview${product.id}" class="visible">Write A New Product Review!</button>
                 <section id="newReview${product.id}" class="hidden">
-                    <fieldset class="hidden">
-                        <label for="entry">Write Your New Review Here!</label>
-                        <textarea name="entry" id="newReviewText${product.id}" cols="30" rows="10"></textarea>
-                        <button id="saveNewReview${product.id}" class="hidden">SUBMIT REVIEW</button>
+                    <fieldset class="">
+                        <label for="newReviewText--${product.id}">Write Your New Review Here!</label>
+                        <textarea name="newReviewText--${product.id}" id="newReviewText${product.id}" cols="30" rows="10"></textarea>
                     </fieldset>
+                    <button id="saveNewReview${product.id}" class="">SUBMIT REVIEW</button>
                 </section>
             </div>
                 `

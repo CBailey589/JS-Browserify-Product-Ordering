@@ -78,6 +78,13 @@ body {
 .productObj fieldset {
     display: flex;
     flex-direction: column;
+    color: yellow;
+}
+
+textarea {
+    background-color: black;
+    color: yellow;
+    font-size: 1.2em;
 }
 
 .hidden {
