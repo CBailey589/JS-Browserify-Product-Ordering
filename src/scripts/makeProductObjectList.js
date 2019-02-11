@@ -11,7 +11,7 @@ function makeProductObjectList() {
             return getProductDataJSON()
         })
         .then((parsedProducts) => {
-            let x = parsedProducts.map((product) => {
+            parsedProducts.map((product) => {
                 let reviewsForCurrentProduct = productReviewList.filter((review) => parseInt(review["1"]["prodId"]) === product.id)
                 let productObj = {};
                 productObj.id = product.id
@@ -39,7 +39,7 @@ function makeProductObjectList() {
                 catch(error) {}
                 productArrayWithReviews.push(productObj)
             })
-            console.log(productArrayWithReviews)
+            // console.log(productArrayWithReviews)
             return productArrayWithReviews
         })
 }

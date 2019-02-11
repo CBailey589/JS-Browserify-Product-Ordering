@@ -10,7 +10,7 @@ function makeProductReviewList() {
                 (a, b) {
                 return b.prodId - a.prodId
             })
-            console.log({newestReviewsByProduct})
+            // console.log({newestReviewsByProduct})
             let i = 1;
             let threeNewestReviewsByProd = []
             let reviewsForGivenProduct = {};
@@ -32,7 +32,7 @@ function makeProductReviewList() {
                 }
             });
             threeNewestReviewsByProd.push(reviewsForGivenProduct)
-            console.log({threeNewestReviewsByProd})
+            // console.log({threeNewestReviewsByProd})
             return threeNewestReviewsByProd
         })
 }
